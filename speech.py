@@ -9,4 +9,3 @@ with sr.Microphone() as source:
         print("You said : {}".format(text))
     except:
         print("Sorry could not recognize what you said")
-        #test
